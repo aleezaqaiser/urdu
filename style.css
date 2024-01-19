@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Noto Nastaliq Urdu';
+    src: url('fonts/notonastaliqurdu-webfont.woff2') format('woff2'), /* Replace 'notonastaliqurdu-webfont.woff2' with the actual filename */
+         url('fonts/notonastaliqurdu-webfont.woff') format('woff'); /* Replace 'notonastaliqurdu-webfont.woff' with the actual filename */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Noto Nastaliq Urdu', 'Times New Roman', serif;
+  }
+header {
+    background-color:#fff;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+article {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
